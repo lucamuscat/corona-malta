@@ -4,7 +4,7 @@ This repository contains a scraper written in python which obtains the basic sta
 If the conditional statement is removed from this line of code, one may obtain all of the countries affected by the corona virus (Don't forget to remove the subscript)
 
 
-#BEGIN_SRC python
+#+BEGIN_SRC python
 malta = [tr.find("td") for tr in table if "Malta" in tr.text][0]
 malta_text = [tr.text for tr in malta]
-#END_SRC
+#+END_SRC
